@@ -1,5 +1,7 @@
 to run
 
 ```shell
-uv pip install -r requirements.txt && python app.py
+export GROQ_API_KEY="sk-..."
+
+$uv pip install -r requirements.txt && python app.py
 ```
