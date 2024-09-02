@@ -3,3 +3,5 @@
 __pycache__/
 venv/
 .vscode/
+testing.py 
+app_old.py 
