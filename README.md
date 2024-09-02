@@ -7,4 +7,4 @@ $uv pip install -r requirements.txt && python app.py
 ```
 
 
-# you can get  your groq  apikey here https://console.groq.com/keys
+you can get  your groq  apikey here https://console.groq.com/keys
