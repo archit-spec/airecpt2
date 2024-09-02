@@ -1,0 +1,11 @@
+User input: '{{ user_input }}'
+Determine if this is an emergency or a message. If it's an emergency, ask for details about the type of emergency. If it's a message, ask for the message content. If unclear, ask for clarification.
+
+Your response should be in the following format:
+{
+    "is_emergency": boolean,
+    "is_message": boolean,
+    "emergency_type": "string (if applicable)",
+    "message": "string (if applicable)",
+    "response": "Your response to the user"
+}

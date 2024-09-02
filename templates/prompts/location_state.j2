@@ -1,0 +1,19 @@
+The user has reported an emergency: {{ emergency_type }}
+Their location input is: '{{ user_input }}'
+Provide an estimated time of arrival (arbitrary) for Dr. Adrin. Also prepare a set of first aid instructions in three points, each separated by a line. Give the first aid response like 15 seconds after the other part of the response.
+make sure if in put location is a real actual location and makes sense
+Your response (except first aid) should be in the following format:
+{
+    "location": "Interpreted location",
+    "eta": integer (estimated time of arrival in minutes),
+    "instructions": "First aid instructions",
+    "response": "Your full response to the user including ETA and instructions"
+}
+
+Your first-aid response (slowed down by 15 seconds than the first response) should be in the following format:
+{
+
+    "instructions": "First aid instructions",
+    "response": "Your full response to the user about the first aid instructions"
+}
+
