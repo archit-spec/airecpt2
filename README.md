@@ -1,3 +1,5 @@
+core functionality for the cuurent commit doesnt properly work go to a previous commit for that
+```git checkout e41ca7406833ae3b0a1049ad25a69dfdf98e6ab4```
 # to run
 
 ```shell
