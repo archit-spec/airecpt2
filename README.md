@@ -3,7 +3,7 @@
 ```shell
 $ export GROQ_API_KEY="sk-..." # set api key
 
-$ uv pip install -r requirements.txt && python app.py # install dependencies 
+$ uv pip install -r requirements.txt && python app.py # install dependencies and run  
 
 ```
 
